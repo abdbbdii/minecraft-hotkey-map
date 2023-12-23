@@ -1,11 +1,14 @@
 # MINECRAFT HOTKEY CHART GENERATOR
+
 ## Video Demo:
 
-https://youtu.be/SlrZR0yFiYM
+##### [Watch on YouTube](https://www.youtube.com/watch?v=SlrZR0yFiYM)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/SlrZR0yFiYM/0.jpg)](https://www.youtube.com/watch?v=SlrZR0yFiYM "Watch on youtube")
+
 ## Requirements:
 
-1. Make sure you have downloaded the code in your own Windows computer.
-2. Make sure you have Minecraft game installed in your Windows computer.
+1. Make sure you have downloaded the code to your own Windows computer.
+2. Make sure you have Minecraft game installed on your Windows computer.
 3. Make sure you have an active internet connection.
 
 ## Program Description:
@@ -72,3 +75,5 @@ This Program generates a customized Minecraft hotkey chart in either SVG or PNG 
 
 ### Summary:
 This program not only takes Minecraft keybindings but also the mods used to modify the base game, from the game's configuration file and combines them with an SVG template, customizes the appearance of the hotkey chart and outputs it in the user's preferred format (SVG or PNG). It offers a way for Minecraft players to create visual hotkey charts for reference while playing the game.
+
+![Python](https://img.shields.io/badge/Made_with_Python-3776AB?style=for-the-badge&logo=python&logoColor=white&link=python.org)
