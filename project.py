@@ -15,13 +15,160 @@ def main():
     input_file_name = "input_SVG_file.svg"
 
     mod_colors = [
-        "#FFF680", "#6EC167", "#F1693F", "#6699FF", "#FF6666", "#EA9F21", "#1B7639", "#8E67AD", "#FF99CC", "#05A485", "#F58E68", "#669999", "#FF9999", "#0F75BC", "#A76D35", "#A52A2A", "#336666", "#996666", "#CC9966", "#00BFFF", "#F064A5", "#CCFF00",
+        "#FFF680",
+        "#6EC167",
+        "#F1693F",
+        "#6699FF",
+        "#FF6666",
+        "#EA9F21",
+        "#1B7639",
+        "#8E67AD",
+        "#FF99CC",
+        "#05A485",
+        "#F58E68",
+        "#669999",
+        "#FF9999",
+        "#0F75BC",
+        "#A76D35",
+        "#A52A2A",
+        "#336666",
+        "#996666",
+        "#CC9966",
+        "#00BFFF",
+        "#F064A5",
+        "#CCFF00",
     ]
 
     # Defining all keys
 
     key_list = [
-        "mouse.left", "mouse.right", "mouse.middle", "mouse.scroll", "mouse.4", "mouse.5", "mouse.6", "mouse.7", "mouse.8", "mouse.9", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "grave.accent", "equal", "minus", "right.bracket", "left.bracket", "backslash", "semicolon", "apostrophe", "comma", "period", "slash", "enter", "space", "escape", "tab", "backspace", "caps.lock", "left.shift", "left.control", "left.alt", "left.win", "right.shift", "right.control", "right.alt", "right.win", "menu", "f1", "f2", "f3", "f4", "f5", "f6", "f7", "f8", "f9", "f10", "f11", "f12", "f13", "f14", "f15", "f16", "f17", "f18", "f19", "f20", "f21", "f22", "f23", "f24", "f25", "up", "down", "left", "right", "insert", "home", "page.up", "delete", "end", "page.down", "scroll.lock", "print.screen", "pause", "keypad.num.lock", "keypad.0", "keypad.1", "keypad.2", "keypad.3", "keypad.4", "keypad.5", "keypad.6", "keypad.7", "keypad.8", "keypad.9", "keypad.divide", "keypad.multiply", "keypad.subtract", "keypad.add", "keypad.enter", "keypad.decimal",
+        "mouse.left",
+        "mouse.right",
+        "mouse.middle",
+        "mouse.scroll",
+        "mouse.4",
+        "mouse.5",
+        "mouse.6",
+        "mouse.7",
+        "mouse.8",
+        "mouse.9",
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "j",
+        "k",
+        "l",
+        "m",
+        "n",
+        "o",
+        "p",
+        "q",
+        "r",
+        "s",
+        "t",
+        "u",
+        "v",
+        "w",
+        "x",
+        "y",
+        "z",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "grave.accent",
+        "equal",
+        "minus",
+        "right.bracket",
+        "left.bracket",
+        "backslash",
+        "semicolon",
+        "apostrophe",
+        "comma",
+        "period",
+        "slash",
+        "enter",
+        "space",
+        "escape",
+        "tab",
+        "backspace",
+        "caps.lock",
+        "left.shift",
+        "left.control",
+        "left.alt",
+        "left.win",
+        "right.shift",
+        "right.control",
+        "right.alt",
+        "right.win",
+        "menu",
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "f5",
+        "f6",
+        "f7",
+        "f8",
+        "f9",
+        "f10",
+        "f11",
+        "f12",
+        "f13",
+        "f14",
+        "f15",
+        "f16",
+        "f17",
+        "f18",
+        "f19",
+        "f20",
+        "f21",
+        "f22",
+        "f23",
+        "f24",
+        "f25",
+        "up",
+        "down",
+        "left",
+        "right",
+        "insert",
+        "home",
+        "page.up",
+        "delete",
+        "end",
+        "page.down",
+        "scroll.lock",
+        "print.screen",
+        "pause",
+        "keypad.num.lock",
+        "keypad.0",
+        "keypad.1",
+        "keypad.2",
+        "keypad.3",
+        "keypad.4",
+        "keypad.5",
+        "keypad.6",
+        "keypad.7",
+        "keypad.8",
+        "keypad.9",
+        "keypad.divide",
+        "keypad.multiply",
+        "keypad.subtract",
+        "keypad.add",
+        "keypad.enter",
+        "keypad.decimal",
     ]
 
     # Importing keystrokes from the minecraft folder
@@ -90,14 +237,14 @@ def main():
 
     # Customizing the color scheme
 
-    default_bg_color                = "#363639"
-    default_header_text_color       = "#BCBEC0"
-    default_customkeys_frame_color  = "#1D191C"
-    default_mouse_frame_color       = "#1D191C"
-    default_keyboard_frame_color    = "#1D191C"
-    default_mod_frame_color         = "#221E22"
-    default_key_color               = "#221E22"
-    default_line_color              = "#BCBEC0"
+    default_bg_color = "#363639"
+    default_header_text_color = "#BCBEC0"
+    default_customkeys_frame_color = "#1D191C"
+    default_mouse_frame_color = "#1D191C"
+    default_keyboard_frame_color = "#1D191C"
+    default_mod_frame_color = "#221E22"
+    default_key_color = "#221E22"
+    default_line_color = "#BCBEC0"
 
     while True:
         print(
@@ -144,13 +291,14 @@ When you are happy just press [Enter] to go with it.
                 continue
             case "":
                 while True:
-                    user_input = input('''
+                    user_input = input(
+                        """
 Do you want this color scheme to be your final?
     [Enter]: Sure
     [0]: No, go back.
 
-Enter your choice: '''
-                                       )
+Enter your choice: """
+                    )
                     match user_input:
                         case "":
                             break
@@ -251,7 +399,7 @@ Enter your choice: '''
             pass
     for rect_element in root.iter(f"{{{namespace}}}rect"):
         try:
-            if (rect_element.attrib["id"][:-1] == "modcolor" or rect_element.attrib["id"][:-2] == "modcolor"):
+            if rect_element.attrib["id"][:-1] == "modcolor" or rect_element.attrib["id"][:-2] == "modcolor":
                 rect_element.attrib["fill"] = mod_color_dict[modname_dict[rect_element.attrib["id"].replace("modcolor", "modname")]]
         except:
             pass
@@ -267,12 +415,7 @@ Enter your choice: '''
             file.write(ET.tostring(root, encoding="unicode"))
         input_svg_file = f"_{output_file_name}.svg"
         output_png_file = f"{output_file_name}.png"
-        cairosvg.svg2png(
-            url=input_svg_file,
-            write_to=output_png_file,
-            output_width=scale_factor * cairosvg.svg2png(url=input_svg_file)[0],
-            output_height=scale_factor * cairosvg.svg2png(url=input_svg_file)[1]
-        )
+        cairosvg.svg2png(url=input_svg_file, write_to=output_png_file, output_width=scale_factor * cairosvg.svg2png(url=input_svg_file)[0], output_height=scale_factor * cairosvg.svg2png(url=input_svg_file)[1])
         os.remove(f"_{output_file_name}.svg")
         os.remove(input_file_name)
 
@@ -302,13 +445,13 @@ def getUserPath(postPath):
 
 def change_color(colorvar):
     while True:
-        newcolorvar = input('Enter a color value in a format (#RRGGBB)\nOpen https://www.google.com/search?q=color+picker to generate one\nOr press [Enter] to go back: ').upper()
+        newcolorvar = input("Enter a color value in a format (#RRGGBB)\nOpen https://www.google.com/search?q=color+picker to generate one\nOr press [Enter] to go back: ").upper()
         if not newcolorvar:
             return colorvar
         try:
-            color('■',newcolorvar)
-            if not newcolorvar.startswith('#'):
-                newcolorvar=f"#{newcolorvar}"
+            color("■", newcolorvar)
+            if not newcolorvar.startswith("#"):
+                newcolorvar = f"#{newcolorvar}"
             return newcolorvar
         except ValueError:
             print("Invalid value, try again.")
