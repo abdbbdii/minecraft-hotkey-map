@@ -76,4 +76,7 @@ This Program generates a customized Minecraft hotkey chart in either SVG or PNG 
 ### Summary:
 This program not only takes Minecraft keybindings but also the mods used to modify the base game, from the game's configuration file and combines them with an SVG template, customizes the appearance of the hotkey chart and outputs it in the user's preferred format (SVG or PNG). It offers a way for Minecraft players to create visual hotkey charts for reference while playing the game.
 
-![Python](https://img.shields.io/badge/Made_with_Python-3776AB?style=for-the-badge&logo=python&logoColor=white&link=python.org)
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/abdbbdii)
+
+![Made with Python](https://img.shields.io/badge/Made_with_Python-3776AB?style=for-the-badge&logo=python&logoColor=white)<br>
+![BSD Licensed](https://img.shields.io/badge/BSD_Licensed-AB2B28?style=for-the-badge&logo=bsd&logoColor=white)
