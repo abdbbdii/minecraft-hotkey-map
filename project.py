@@ -174,7 +174,7 @@ def main():
     # Importing keystrokes from the minecraft folder
 
     text_id_incomplete = {}
-    line_color_incompete = {}
+    line_color_incomplete = {}
     mods = []
 
     file_path = getUserPath(".minecraft\options.txt")
@@ -217,7 +217,7 @@ def main():
             while f"{key_sroke}{n}" in text_id_incomplete:
                 n += 1
             text_id_incomplete.update({f"{key_sroke}{n}": key_description})
-            line_color_incompete.update({f"{key_sroke}{n}": mod_name})
+            line_color_incomplete.update({f"{key_sroke}{n}": mod_name})
             mods.append(mod_name)
     mods = cleanup(mods)
     mod_color_dict = combine(mods, mod_colors)
@@ -381,7 +381,7 @@ Enter your choice: """
             all_key_dict.update({text_id: None})
             all_key_dict.update(text_id_incomplete)
             all_mod_dict.update({text_id: None})
-            all_mod_dict.update(line_color_incompete)
+            all_mod_dict.update(line_color_incomplete)
 
             if all_mod_dict[text_id] is not None:
                 text_element.attrib["fill"] = mod_color_dict[all_mod_dict[text_id]]  # Returns the value of the mod
