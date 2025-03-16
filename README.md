@@ -1,9 +1,10 @@
-# MINECRAFT HOTKEY CHART GENERATOR
+# Minecraft Hotkey Chart Generator
+
+![alt text](showcase.png)
 
 ## Video Demo:
 
-##### [Watch on YouTube](https://www.youtube.com/watch?v=SlrZR0yFiYM)
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/SlrZR0yFiYM/0.jpg)](https://www.youtube.com/watch?v=SlrZR0yFiYM "Watch on youtube")
+[![Watch on youtube](https://img.shields.io/badge/Watch_on_youtube-000000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=SlrZR0yFiYM)
 
 ## Requirements:
 
